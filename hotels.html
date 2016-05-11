@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-   <div class="container">      
+   <div class="container">
 <!-------------ШАПКА----------------->
-      
+
    <header class="main-header">
      <nav class="main-navigation">
         <ul>
@@ -25,80 +26,84 @@
           </li>
         </ul>
      </nav>
+     <a href="index.html">
+        <img src="logo.png" alt="logo">
+     </a>
    </header>
 
 <!-------------ТЕЛО----------------->
-      
+
    <main>
-        <form> 
-            <div>            
+        <form>
+            <div>
               <fieldset>
-               <legend>Инфраструктура:</legend>           
+               <legend>Инфраструктура:</legend>
                <input type="checkbox" name="pool" id="pool-check" checked>
-               <label for="pool-check">Бассейн</label><br>
+               <label for="pool-check">Бассейн</label>
                <input type="checkbox" name="parking" id="parking-check">
-               <label for="parking-check">Парковка</label><br>
+               <label for="parking-check">Парковка</label>
                <input type="checkbox" name="wi-fi" id="wi-fi-check">
                <label for="wi-fi-check">Wi-Fi</label>
-             </fieldset>            
+             </fieldset>
             </div>
-            <div>            
+            <div>
              <fieldset>
                <legend>Тип жилья:</legend>
                <input type="checkbox" name="hotel" id="hotel-check" checked>
-               <label for="hotel-check">Гостиница</label><br>
+               <label for="hotel-check">Гостиница</label>
                <input type="checkbox" name="motel" id="motel-check" checked>
-               <label for="motel-check">Мотель</label><br>
+               <label for="motel-check">Мотель</label>
                <input type="checkbox" name="apart" id="apart-check" checked>
-               <label for="apart-check">Апартаменты</label>  
-             </fieldset>            
+               <label for="apart-check">Апартаменты</label>
+             </fieldset>
             </div>
-            <div>            
+            <div>
              <fieldset>
                 <legend>Стоимость в сутки (р):</legend>
-                
+
                 <!--ПОЛЗУНОК СО СТОИМОСТЬЮ-->
                 <div>
     			    <input type="range" id="price-count" name="price-count" min="0" max="5000" step="100">
     			</div>
                 <!--ПОЛЗУНОК СО СТОИМОСТЬЮ-->
-                 
-                <div class="buttons">
+
+                <div class="form-button">
                   <input type="submit" value="Показать">
-                </div>    
-             </fieldset>                        
-            </div>  
+                </div>
+             </fieldset>
+            </div>
         </form>
+
         <section>
             <div>
-            <div>Найдено: 3</div>
-            <ul>
-              <li>
-                <p>Сортировка</p>
-              </li>
-              <li>
-                <a href="#">По цене</a>
-              </li>
-              <li>
-                <a href="#">По типу</a>
-              </li>
-              <li>
-                <a href="#">По рейтингу</a>
-              </li>
-            </ul>
-            <div>
-                <a href="#">
-                    <img src="up.png" alt="&#9650;">
-                </a>
-                <a href="#">
-                    <img src="down.png" alt="&#9660;">
-                </a>                
-            </div>
-                
+                <div>Найдено: 3</div>
+                <ul>
+                  <li>
+                    <span>Сортировка</span>
+                  </li>
+                  <li>
+                    <a href="#">По цене</a>
+                  </li>
+                  <li>
+                    <a href="#">По типу</a>
+                  </li>
+                  <li>
+                    <a href="#">По рейтингу</a>
+                  </li>
+                </ul>
+                <div>
+                  <!--Здесь не ссылки картинками! Сделать спрайтами 20мин2к (звезды гостиниц тоже)-->
+                    <a href="#">
+                        <img src="up.png" alt="&#9650;">
+                    </a>
+                    <a href="#">
+                        <img src="down.png" alt="&#9660;">
+                    </a>
+                </div>
             </div>
 
             <div>
-                <div ><!-- Отель1 -->
+                <div><!-- Отель1 -->
                     <div>
                         <img src="hotel_1.png">
                         <span>Amarta Resort & Spa</span>
@@ -112,8 +117,8 @@
                         <span>Рейтинг: 8,5</span>
                     </div>
                 </div>
-                
-                <div ><!-- Отель2 -->
+
+                <div><!-- Отель2 -->
                     <div>
                         <img src="hotel_2.png">
                         <span>Desert Quail Inn</span>
@@ -127,8 +132,8 @@
                         <span>Рейтинг: 8,0</span>
                     </div>
                 </div>
-                
-                <div ><!-- Отель3 -->
+
+                <div><!-- Отель3 -->
                     <div>
                         <img src="hotel_3.png">
                         <span>Villas At Poco Diablo</span>
@@ -142,27 +147,27 @@
                         <span>Рейтинг: 9.2</span>
                     </div>
                 </div>
-                
-            </div>  
+
+            </div>
         </section>
 <!-------------ПОДЛВАЛ-------------->
-       
+
      <footer class="main-footer">
         <section class="footer-teg">
-         <h2>#VISITSEDONA</h2> 
+         <h2>#VISITSEDONA</h2>
         </section>
         <section class="footer-social">
          <a class="social-btn social-btn-twitter" href="#">twitter.com</a>
          <a class="social-btn social-btn-fb" href="#">facebook.com</a>
-         <a class="social-btn social-btn-ytb" href="#">youtube.com</a> 
+         <a class="social-btn social-btn-ytb" href="#">youtube.com</a>
         </section>
         <section class="footer-copyright">
          <p>Website by</p>
-          <a href="https://htmlacademy.ru"><img src="img/index-icon_logo.png" width="20" height="10" alt="HTML Academy»">HTML Academy</a> 
+          <a href="https://htmlacademy.ru"><img src="img/index-icon_logo.png" width="20" height="10" alt="HTML Academy»">HTML Academy</a>
         </section>
      </footer>
    </main>
-       
+
    </div>
   </body>
 </html>

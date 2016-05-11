@@ -1,35 +1,40 @@
-<!--главная-->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-   <div class="container">      
+   <div class="container">
 <!-------------ШАПКА-------------->
-      
+
    <header class="main-header">
      <nav class="main-navigation">
         <ul>
-          <li>
+          <li class="nav-left">
             <a href="index.html">Информация</a>
           </li>
-          <li>
+          <li  class="nav-left">
             <a href="index.html#photo">Фото и видео</a>
           </li>
-          <li>
+          <li  class="nav-right">
             <a href="index.html#map">Карта штата</a>
           </li>
-          <li>
+          <li class="nav-right">
             <a href="hotels.html">Гостиницы</a>
           </li>
         </ul>
      </nav>
+     <div class="nav-logo">
+        <a href="index.html">
+           <img src="logo.png" alt="logo">
+        </a>
+     </div>
    </header>
 
 <!-------------ТЕЛО-------------->
-      
+
    <main>
      <div class="index-logo">
        <img src="img/index-logo.png" width="200" height="100" alt="Welcome to SEDONA!»">
@@ -38,109 +43,116 @@
        <b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
      </div>
-     
+
       <section class="features">
-       <a name="photo"></a>  
-       
+       <a name="photo"></a>
+
        <div class="row-1">
-       <div class="features-reasons">
-        <span class="features-name">Настоящий городок</span>
-        <span>-№1-</span>
-        <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+           <div class="features-reasons">
+             <span class="features-name">Настоящий городок</span>
+             <span>-№1-</span>
+             <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+           </div>
+           <div class="features-photo">
+             <img src="img/index-gallery_city.png" width="150" height="50" alt="City»">
+           </div>
        </div>
-       <div class="features-photo">
-        <img src="img/index-gallery_city.png" width="150" height="50" alt="City»">
-       </div>
-       </div>  
+
        <div class="row-2">
-       <div class="features-item">
-        <img src="img/index-icon_1.png" width="20" height="20" alt="Pic_1»">
-        <span class="features-name">Жилье</span>
-        <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+           <div class="features-item">
+             <img src="img/index-icon_1.png" width="20" height="20" alt="Pic_1»">
+             <span class="features-name">Жилье</span>
+             <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+           </div>
+           <div class="features-item">
+             <img src="img/index-icon_2.png" width="20" height="20" alt="Pic_2»">
+             <span class="features-name">Еда</span>
+             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+           </div>
+           <div class="features-item">
+             <img src="img/index-icon_3.png" width="20" height="20" alt="Pic_3»">
+             <span class="features-name">Сувениры</span>
+             <p>Не только китайского но и местного производства!</p>
+           </div>
        </div>
-       <div class="features-item">
-        <img src="img/index-icon_2.png" width="20" height="20" alt="Pic_2»">
-        <span class="features-name">Еда</span>
-        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-       </div>
-       <div class="features-item">
-        <img src="img/index-icon_3.png" width="20" height="20" alt="Pic_3»">
-        <span class="features-name">Сувениры</span>
-        <p>Не только китайского но и местного производства!</p>
-       </div>
-       </div>
-       
+
        <div class="row-3">
-       <div class="features-photo">
-        <img src="img/index-gallery_rock.png" width="150" height="50" alt="Rock»">
+           <div class="features-photo">
+             <img src="img/index-gallery_rock.png" width="150" height="50" alt="Rock»">
+           </div>
+           <div class="features-reasons">
+             <span class="features-name">Там есть мост дьявола</span>
+             <span>-№2-</span>
+             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+           </div>
        </div>
-       <div class="features-reasons">
-        <span class="features-name">Там есть мост дьявола</span>
-        <span>-№2-</span>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-       </div>
-       </div>
-          
+
        <div class="row-4">
-       <div class="features-reasons">
-        <span class="features-name">Небольшая площадь</span>
-        <span>-№3-</span>
-        <p>Все достопримечательности находятся очень близко</p>
+           <div class="features-reasons">
+             <span class="features-name">Небольшая площадь</span>
+             <span>-№3-</span>
+             <p>Все достопримечательности находятся очень близко</p>
+           </div>
+           <div class="features-reasons">
+             <span class="features-name">Красивая дорога</span>
+             <span>-№4-</span>
+             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+           </div>
+           <div class="features-reasons">
+             <span class="features-name">Мало туристов</span>
+             <span>-№5-</span>
+             <p>Большинство едет в Гранд Каньон и толпится там</p>
+           </div>
        </div>
-       <div class="features-reasons">
-        <span class="features-name">Красивая дорога</span>
-        <span>-№4-</span>
-        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-       </div>
-       <div class="features-reasons">
-        <span class="features-name">Мало туристов</span>
-        <span>-№5-</span>
-        <p>Большинство едет в Гранд Каньон и толпится там</p>
-       </div>
-       </div>
-          
+
      </section>
-    
-     <section class="index-search">  
+
+     <section class="index-search">
        <div class="index-slogan2">
         <span>Заинтересовались?</span>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a href="#" class="">Поиск гостиницы в Седоне</a>
        </div>
-         
+
        <div class="index-serch-frame">
-        <form>        
-         <div><label>Дата заезда <input type="datetime" name="date-in" value="24 апреля 2016"></label></div>
-         <div><label>Дата выезда <input type="datetime" name="date-out"  value="4 июля 2016"></label></div>
-         <div><label>Взрослые <input type="number" name="adults" value="2"></label>
-              <label>Дети <input type="number" name="children" value="0"></label> </div>
+        <form>
+         <div>
+           <label>Дата заезда <input type="text" name="date-in" value="24 апреля 2016"></label></div>
+         <div>
+           <label>Дата выезда <input type="text" name="date-out"  value="4 июля 2016"></label></div>
+         <div>
+           <label>Взрослые <input type="number" name="adults" value="2"></label>
+           <label>Дети <input type="number" name="children" value="0"></label>
+         </div>
          <button class="btn" type="submit">Найти</button>
         </form>
-       </div>  
-     </section>   
-      
+       </div>
+     </section>
+
 <!-------------ПОДЛВАЛ-------------->
-       
+
      <footer class="main-footer">
-        <a name="map"></a> 
-        <div>         
-         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10097.341052609072!2d-111.77335831976707!3d34.864824358882146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1462131932041" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <a name="map"></a>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10097.341052609072!2d-111.77335831976707!3d34.864824358882146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1462131932041" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <section class="footer-teg">
-         <h2>#VISITSEDONA</h2> 
-        </section>
-        <section class="footer-social">
-         <a class="social-btn social-btn-twitter" href="#">twitter.com</a>
-         <a class="social-btn social-btn-fb" href="#">facebook.com</a>
-         <a class="social-btn social-btn-ytb" href="#">youtube.com</a> 
-        </section>
-        <section class="footer-copyright">
-         <p>Website by</p>
-          <a href="https://htmlacademy.ru"><img src="img/index-icon_logo.png" width="20" height="10" alt="HTML Academy»">HTML Academy</a> 
-        </section>
+        <div>
+          <section class="footer-teg">
+           <h2>#VISITSEDONA</h2>
+          </section>
+          <section class="footer-social">
+           <a class="social-btn social-btn-twitter" href="#">twitter.com</a>
+           <a class="social-btn social-btn-fb" href="#">facebook.com</a>
+           <a class="social-btn social-btn-ytb" href="#">youtube.com</a>
+          </section>
+          <section class="footer-copyright">
+           <p>Website by</p>
+            <a href="https://htmlacademy.ru"><img src="img/index-icon_logo.png" width="20" height="10" alt="HTML Academy»">HTML Academy</a>
+          </section>
+        </div>
      </footer>
    </main>
-       
+
    </div>
   </body>
 </html>
